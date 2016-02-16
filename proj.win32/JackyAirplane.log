@@ -1,0 +1,46 @@
+﻿生成启动时间为 2014/2/28 10:17:52。
+     1>项目“E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\JackyAirplane.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug.win32\..\JackyAirplane.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug.win32\..\JackyAirplane.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\cocos2dx" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\cocos2dx\include" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\cocos2dx\kazmath\include" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\cocos2dx\platform\win32" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\external" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\external\chipmunk\include\chipmunk" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\CocosDenshion\include" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\..\extensions" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\Classes" /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\..\\" /Fd"Debug.win32\..\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\BulletLayer.cpp ..\Classes\ControlLayer.cpp ..\Classes\Enemy.cpp ..\Classes\EnemyLayer.cpp ..\Classes\GameLayer.cpp ..\Classes\GameOverLayer.cpp ..\Classes\GameOverScene.cpp ..\Classes\GameScene.cpp ..\Classes\MutiBulletsLayer.cpp ..\Classes\NoTouchLayer.cpp ..\Classes\PlaneLayer.cpp ..\Classes\UFOLayer.cpp ..\Classes\WelcomeLayer.cpp ..\Classes\WelcomeScene.cpp main.cpp
+         main.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\proj.win32\main.h(11): fatal error C1083: 无法打开包括文件:“CCStdC.h”: No such file or directory
+         WelcomeScene.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\welcomescene.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         WelcomeLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\welcomelayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         UFOLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\ufolayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         PlaneLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\planelayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         NoTouchLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\notouchlayer.h(15): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         MutiBulletsLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\mutibulletslayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameScene.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\gamescene.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameOverScene.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\gameoverscene.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameOverLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\gameoverlayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\gamelayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         EnemyLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.h(15): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         Enemy.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemy.h(15): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         ControlLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\controllayer.h(16): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         BulletLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\bulletlayer.h(17): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         AppDelegate.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\appdelegate.h(4): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\JackyAirplane.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.45

@@ -1,0 +1,102 @@
+﻿生成启动时间为 2014/2/28 10:37:37。
+     1>项目“E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\JackyAirplane.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug.win32\JackyAirplane.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug.win32\JackyAirplane.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\cocos2dx" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\cocos2dx\include" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\cocos2dx\platform\win32" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\external" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\CocosDenshion\include" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\extensions" /I"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\Classes" /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\BulletLayer.cpp ..\Classes\ControlLayer.cpp ..\Classes\Enemy.cpp ..\Classes\EnemyLayer.cpp ..\Classes\GameLayer.cpp ..\Classes\GameOverLayer.cpp ..\Classes\GameOverScene.cpp ..\Classes\GameScene.cpp ..\Classes\MutiBulletsLayer.cpp ..\Classes\NoTouchLayer.cpp ..\Classes\PlaneLayer.cpp ..\Classes\UFOLayer.cpp ..\Classes\WelcomeLayer.cpp ..\Classes\WelcomeScene.cpp main.cpp
+         main.cpp
+         WelcomeScene.cpp
+         WelcomeLayer.cpp
+         UFOLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\ufolayer.cpp(84): warning C4305: “参数”: 从“double”到“float”截断
+         PlaneLayer.cpp
+         NoTouchLayer.cpp
+         MutiBulletsLayer.cpp
+         GameScene.cpp
+         GameOverScene.cpp
+         GameOverLayer.cpp
+         GameLayer.cpp
+         EnemyLayer.cpp
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(102): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(103): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(106): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(107): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(191): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(192): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(279): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(280): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(283): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\airplane\classes\enemylayer.cpp(284): warning C4305: “=”: 从“double”到“float”截断
+         Enemy.cpp
+         ControlLayer.cpp
+         BulletLayer.cpp
+         AppDelegate.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\JackyAirplane.exe.embed.manifest.res" Debug.win32\JackyAirplane_manifest.rc 
+       PreLinkEvent:
+         if not exist "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\" mkdir "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\"
+         xcopy /Y /Q "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\JackyAirplane.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.lib" /MACHINE:X86 Debug.win32\JackyAirplane.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BulletLayer.obj
+         Debug.win32\ControlLayer.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\EnemyLayer.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\GameOverLayer.obj
+         Debug.win32\GameOverScene.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\MutiBulletsLayer.obj
+         Debug.win32\NoTouchLayer.obj
+         Debug.win32\PlaneLayer.obj
+         Debug.win32\UFOLayer.obj
+         Debug.win32\WelcomeLayer.obj
+         Debug.win32\WelcomeScene.obj
+         Debug.win32\main.obj
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libcocos2d.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libCocosDenshion.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libExtensions.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libBox2D.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libchipmunk.lib"
+       Manifest:
+         正在删除文件“Debug.win32\JackyAirplane.exe.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\JackyAirplane.exe.embed.manifest" /manifest Debug.win32\JackyAirplane.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\JackyAirplane.exe.embed.manifest.res" Debug.win32\JackyAirplane_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\JackyAirplane.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.lib" /MACHINE:X86 Debug.win32\JackyAirplane.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BulletLayer.obj
+         Debug.win32\ControlLayer.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\EnemyLayer.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\GameOverLayer.obj
+         Debug.win32\GameOverScene.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\MutiBulletsLayer.obj
+         Debug.win32\NoTouchLayer.obj
+         Debug.win32\PlaneLayer.obj
+         Debug.win32\UFOLayer.obj
+         Debug.win32\WelcomeLayer.obj
+         Debug.win32\WelcomeScene.obj
+         Debug.win32\main.obj
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libcocos2d.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libCocosDenshion.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libExtensions.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libBox2D.lib"
+         "E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\libchipmunk.lib"
+         JackyAirplane.vcxproj -> E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\JackyAirplane.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\JackyAirplane.unsuccessfulbuild”。
+         正在对“Debug.win32\JackyAirplane.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\samples\AirPlane\proj.win32\JackyAirplane.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:31.85
